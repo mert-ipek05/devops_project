@@ -1,1 +1,34 @@
+# macOS sistem dosyaları
+
+# Gizli dosyalar
+.*
+
+# Finder ve Spotlight meta verileri
 .DS_Store
+._*
+
+# Thumbs.db dosyaları
+Thumbs.db
+
+# Spotlight meta verileri
+.Spotlight-V100
+.Spotlight-V200
+
+# MacOS sürücü simgeleri
+.Trashes
+
+# Kullanıcı tercihleri
+*.DS_Store
+*.localized
+
+# Sistem günlükleri
+*.log
+
+# Geçici dosyalar
+tmp/
+
+# MacPorts
+.brew/
+
+# Homebrew
+.cask/
